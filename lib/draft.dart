@@ -254,7 +254,7 @@ class Draft extends StatelessWidget {
         // chat of messenger screen
     );
   }
-  
+
 
   data(){
     return         Expanded(
