@@ -10,6 +10,7 @@ class CounterScreen extends StatefulWidget {
 class _CounterScreenState extends State<CounterScreen> {
   int counter = 1;
 
+
   @override
   void initState() {
     super.initState();
