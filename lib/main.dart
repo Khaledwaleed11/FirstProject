@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:kkk/bmi_result_screen.dart';
+import 'package:kkk/bmi_screen.dart';
 import 'package:kkk/messenger_screen.dart';
 
 
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  const MessengerScreen(),
+      home:  const BmiScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
